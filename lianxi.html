@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>mov1er's cnode</title>
+
+    <meta  >
+
+
+</head>
+
+<body>
+
+<div id="div">
+   <a href="#">DOm事件类型</a>
+</div>
+<script>
+
+    var div = doucment.getElementById("div");
+    var a= div.children[0];
+    doucment.onclick=function(){
+        console.log("document");
+    };
+    a.onclick= function(){
+        console.log("a");
+    };
+    div.onclick = function(){
+        console.log("div");
+    }
+</script>
+<!-- built files will be auto injected -->
+
+</body>
+
+</html>
